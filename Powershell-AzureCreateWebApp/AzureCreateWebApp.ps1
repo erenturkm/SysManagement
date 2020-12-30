@@ -1,7 +1,4 @@
 #Create Azure Web-App
-#requirements
-#	This script requires Az Powershell Module and can be installed using
-#	Install-Module -Name Az -AllowClobber -Scope AllUsers
 
 #Required Parameters
 $ResourceGroupName="TestRG"
@@ -10,7 +7,7 @@ $AppServicePlanName="TestAppPlan"
 $AppServiceTier="Free"
 $AppServiceInstanceSize="Small"
 $AppServiceInstanceCount=1
-$WordpressAppName="egeerenturk"
+$WordpressAppName="App"
 $ContainerImageName="wordpress"
 $newAppsettings=@{"WEBSITE_MYSQL_ENABLED"="1";"WEBSITE_MYSQL_GENERAL_LOG"="0";"WEBSITE_MYSQL_SLOW_QUERY_LOG"="0";"WEBSITE_MYSQL_ARGUMENTS"="--max_allowed_packet=16M"}
 

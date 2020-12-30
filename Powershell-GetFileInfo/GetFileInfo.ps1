@@ -1,4 +1,8 @@
+#GetFileInfo
+#By Murat Cudi Erenturk
+
 param ($FolderName = $(throw "FolderName is required."))
+$ToolVersion="1.0.20200727.1"
 $OutputName="FolderInfo.csv"
 $LogFileName="GetFileInfo.Log"
 $ErrorLogFileName="Errors.Log"

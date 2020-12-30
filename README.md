@@ -12,3 +12,6 @@ This script written in python 3, demonstrates using logging, reading pdf files a
 
 ## GetFileInfo
 This script written in Powershell, demonstrates reading file and folder info for large file servers (200 millon+ files) and proving output in csv format to be analyzed further for backup planning. 
+
+## AzureCreateWebApp
+This script written in Powershell, demonstrates how to create a web app on Azure, to host Wordpress site with embedded MySQL. 
