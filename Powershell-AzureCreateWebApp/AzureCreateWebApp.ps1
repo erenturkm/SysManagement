@@ -1,5 +1,4 @@
 #Create Azure Web-App
-
 #Required Parameters
 $ResourceGroupName="TestRG"
 $ServiceLocation="North Europe"
